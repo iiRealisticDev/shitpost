@@ -1,4 +1,4 @@
-# This an MD file incluing "hello world" examples for both JS and Lua!
+# This an MD file incluing "hello world" examples for JS, LUA & HTML!
 
 # Lua
 ```lua
@@ -14,4 +14,14 @@
   console.log(text); // --> Hello, world!
   text = "Goodbye, world!"
   console.log(text); // --> Goodbye, world!
+```
+
+# HTML
+```html
+<h id="hello"> Hello, world! </h>
+<script>
+  setTimeout(function(){
+    document.getElementById("hello").innerHTML = "Goodbye, world!"
+  }, 3000)
+</script>
 ```
